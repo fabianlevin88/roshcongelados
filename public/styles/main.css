@@ -60,11 +60,19 @@ body, html {
     }
   }
 
-.pointer {
-  cursor: pointer;
-  transition: transform .2s;
-}
+  .pointer {
+    cursor: pointer;
+    transition: transform .2s;
+  }
 
-.pointer:hover {
-  transform: scale(1.5);
-}
+  .pointer:hover {
+    transform: scale(1.5);
+  }
+
+  .carousel {
+    max-height: 80vh;
+  }
+
+  .carousel .carousel-inner {
+    max-height: 80vh;
+  }
